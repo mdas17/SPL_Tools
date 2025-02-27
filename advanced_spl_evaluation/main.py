@@ -12,7 +12,7 @@ from utils.diff_utils import build_diff_html
 from utils.scoring_utils import bucket_rouge, bucket_generic
 
 def main():
-    st.title("SPL Comparison and Visualization")
+    st.title("Advanced SPL Comparison and Visualization")
 
     # 1) File Upload
     uploaded_file = st.file_uploader("Upload CSV file", type="csv")
